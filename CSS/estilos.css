@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: rgb(13, 13, 59);
+  color: white;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 35px;
+  color: #ffffff;
+}
+.header-menu {
+  background-color: rgb(0, 69, 109);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.header-2 {
+  background-color: blue;
+  align-items: center;
+  display: flex;
+  background-position: center;
+}
+.navbar ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li a {
+  font-size: 22px;
+  padding: 20px;
+  color: #ffffff;
+  display: block;
+}
+.navbar ul li a:hover {
+  color: #686868;
+}
+.games {
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.btn-1 {
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: #26ff00;
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  margin-top: 100px;
+  border-top: 1px solid #ffffff71;
+}
+.footer ul {
+  display: flex;
+}
+.footer h3 {
+  font-size: 30px;
+}
+.footer a {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 20px;
+  display: block;
+}
+.footer a:hover {
+  color: #686868;
+}
+
+.box-container-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+.container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content {
+  color: #ffffff;
+  font-size: 20px;
+}
+.favorite-btn {
+  background-color: #00ff1e;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.favorite-btn.favorited {
+  background-color: #007bff;
+}
